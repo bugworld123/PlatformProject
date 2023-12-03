@@ -148,7 +148,8 @@ public class CheckingAccountSteps {
         //assertEquals(expectedTransaction.getDescription(),actualDescription,"transaction description mismatch");
         assertEquals(expectedTransaction.getAmount(),actualAmount,"transaction amount mismatch");
         assertEquals(expectedTransaction.getBalance(),actualBalance,"transaction balance mismatch");
-
+        System.out.println();
+        System.out.println();
 
 
     }
